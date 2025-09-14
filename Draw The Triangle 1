@@ -1,0 +1,21 @@
+with RECURSIVE tree(number)
+
+AS
+
+(
+
+select 20 AS number
+
+UNION ALL
+
+select number-1 AS number FROM tree WHERE number > 1
+
+)
+
+select
+
+REPEAT('* ',number)
+
+from tree
+
+Order by number DESC;
