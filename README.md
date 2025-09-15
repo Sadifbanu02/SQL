@@ -51,7 +51,7 @@ Clone the repo:
    ```bash
    git clone https://github.com/Sadifbanu02/SQL.git
 ```
-📘 Learning Goals
+## 📘 Learning Goals
 
 - Strengthen SQL fundamentals
 
@@ -59,10 +59,13 @@ Clone the repo:
 
 - Build a reference library of queries for interviews and projects
 
-📌 Future Improvements
+## 📌 Future Improvements
 
 - Add explanations & comments for each query
 
 - Provide sample input/output tables
 
-- Add advanced SQL topics (window functions, recursive queries, triggers, etc.)
+- Add advanced SQL topics (window functions, recursive queries, triggers, etc.
+---
+
+---
