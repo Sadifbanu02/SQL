@@ -32,3 +32,18 @@ Example:
 
 
 ---
+
+## 📝 Topics Covered
+
+- Basic **SELECT** queries  
+- Filtering with `WHERE`, `IN`, `BETWEEN`  
+- **Sorting** and `ORDER BY`  
+- **Aggregate Functions** (`SUM`, `AVG`, `COUNT`, `MAX`, `MIN`)  
+- **GROUP BY** and `HAVING`  
+- **Joins** (INNER, LEFT, RIGHT)  
+- Subqueries  
+- Common Table Expressions (CTEs)  
+- Advanced problems from **Weather Observation Station**, **Top Earners**, and more  
+
+---
+
