@@ -50,3 +50,11 @@ Example:
 Clone the repo:
    ```bash
    git clone https://github.com/Sadifbanu02/SQL.git
+
+📘 Learning Goals
+
+- Strengthen SQL fundamentals
+
+- Practice problem-solving with real SQL challenges
+
+- Build a reference library of queries for interviews and projects
