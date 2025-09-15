@@ -67,5 +67,3 @@ Clone the repo:
 
 - Add advanced SQL topics (window functions, recursive queries, triggers, etc.
 ---
-
----
