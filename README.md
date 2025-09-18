@@ -65,5 +65,5 @@ Clone the repo:
 
 - Provide sample input/output tables
 
-- Add advanced SQL topics (window functions, recursive queries, triggers, etc.
+- Add advanced SQL topics (window functions, recursive queries, triggers, etc.           
 ---
