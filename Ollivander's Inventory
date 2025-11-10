@@ -1,0 +1,11 @@
+SELECT w.id, wx.age, wx.coins, wx.`power`
+FROM wands w
+INNER JOIN wands_property wpp ON w.code = wpp.code
+INNER JOIN (
+    SELECT wp.age, MIN( wa.coins_needed ) as coins, wa.`power`
+    FROM wands wa
+    INNER JOIN wands_property wp on wa.code = wp.code
+    WHERE wp.is_evil = 0
+    GROUP BY `power`, age
+    ) wx ON w.coins_needed = wx.coins AND wpp.age = wx.age AND w.`power` = wx.`power`
+ORDER BY wx.`power` DESC, wx.age DESC;
