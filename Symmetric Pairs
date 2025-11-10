@@ -1,0 +1,8 @@
+select a.x,a.y 
+from functions a 
+inner join functions b on a.x = b.y and b.x = a.y and (a.x <> a.y or (
+    select count(*) from functions f 
+    where f.x = a.x and f.y = a.y ) > 1) 
+    where a.x <= a.y 
+    group by a.x,a.y 
+    order by a.x asc
